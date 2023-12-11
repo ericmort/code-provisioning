@@ -1,8 +1,4 @@
-//--------------------------------------------------------------------
-// Modules
-
-module "code_provisioning" {
-  source  = "app.terraform.io/example-org-209581/code-provisioning/no"
-  version = "1.0.2"
-  # trigger run
+module "code-provisioning2" {
+  source  = "app.terraform.io/example-org-209581/code-provisioning2/no"
+  version = "0.0.4"
 }
